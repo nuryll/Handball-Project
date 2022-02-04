@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MatchCreateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="-62dp"
+        tools:layout_editor_absoluteY="291dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="Create Match"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/edittext_opponent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="opponent"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edittext_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="place"
+            android:padding="10dp" />
+
+
+
+        <EditText
+            android:id="@+id/edittext_referee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="referee"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/selectDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/edittext_background"
+            android:fontFamily="sans-serif-medium"
+            android:text="   Select a date   "
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/dateTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selectDate"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:background="@drawable/edittext_background"
+            android:text="MM/DD/YYYY"
+            android:textAllCaps="false"
+            android:padding="10dp"/>
+
+
+        <Button
+            android:id="@+id/button_addplayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_backgroundd"
+            android:text="Add Player"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:drawableTop="@drawable/ic_add_box_black"/>
+
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/button_backgroundd"
+            android:text="Let's Go"
+            android:textSize="30dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:drawableBottom="@drawable/ic_walk"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

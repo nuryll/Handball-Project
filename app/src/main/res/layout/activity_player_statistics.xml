@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:paddingTop="?attr/actionBarSize"
+    tools:context=".PlayerStatistics">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="PLAYER STATISTICS"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:fontFamily="serif-monospace" />
+
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+            <TableRow>
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="Name"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Surname"
+                    android:textColor="#090000"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"/>
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Number"
+                    android:textColor="#090000"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"/>
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Bırthday"
+                    android:textColor="#090000"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+
+                    android:id="@+id/text_view_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:background="@drawable/table"/>
+
+                <TextView
+
+                    android:id="@+id/text_view_surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:background="@drawable/table"/>
+                <TextView
+
+                    android:id="@+id/text_view_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:background="@drawable/table"/>
+
+                <TextView
+
+                    android:id="@+id/text_view_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:background="@drawable/table"/>
+
+            </TableRow>
+        </TableLayout>
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

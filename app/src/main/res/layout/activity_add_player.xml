@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:paddingTop="?attr/actionBarSize"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="-62dp"
+        tools:layout_editor_absoluteY="291dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="Add Player"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/text"
+            android:textSize="30dp"/>
+
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edittext_backgroundd"
+            android:padding="10dp"
+            android:hint="Enter your name.."
+            android:inputType="text"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/editSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edittext_backgroundd"
+            android:padding="10dp"
+            android:hint="Enter your surname..."
+            android:inputType="text"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/editNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edittext_backgroundd"
+            android:padding="10dp"
+            android:hint="Enter the jersey number..."
+            android:inputType="number"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/selectDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/edittext_backgroundd"
+            android:fontFamily="sans-serif-medium"
+            android:text="   Select a date   "
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimary"
+
+                   />
+
+        <TextView
+            android:id="@+id/dateTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selectDate"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:background="@drawable/edittext_backgroundd"
+            android:text="MM/DD/YYYY"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:entries="@array/person_arrays"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dip"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dip"
+            android:background="@drawable/custom_button_save"
+            android:drawableTop="@drawable/ic_save"
+            android:text="SAVE"
+            android:textAllCaps="false"
+            android:textColor="@drawable/custom_button_text_color">
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

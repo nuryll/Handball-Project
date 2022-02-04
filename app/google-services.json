@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "369640582887",
+    "project_id": "handballproject-50809",
+    "storage_bucket": "handballproject-50809.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369640582887:android:be6296f1a061c3bcbb7c42",
+        "android_client_info": {
+          "package_name": "com.example.handball_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369640582887-tkdlt2r9nl8k2jg42tcnifrquqi54q9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.handball_project",
+            "certificate_hash": "e6861b6353aa49a5e71666988be67ce5cf4986b4"
+          }
+        },
+        {
+          "client_id": "369640582887-f76lfauodnjn4dle4237qr05fbpptt5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM8VOVsTSPWrLMroJjQZjuQATumXGuYUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369640582887-f76lfauodnjn4dle4237qr05fbpptt5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
